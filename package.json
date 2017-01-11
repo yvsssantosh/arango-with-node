@@ -1,19 +1,24 @@
 {
-  "name": "arangodb",
-  "version": "0.0.0",
-  "private": true,
-  "scripts": {
-    "start": "node ./bin/www"
+  "name": "arango-with-node",
+  "version": "2.0",
+  "description": "User authentications using Nodejs and ArangoDB as database",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yvsssantosh/arango-with-node.git"
   },
+  "author": "Yadavalli Santosh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yvsssantosh/arango-with-node/issues"
+  },
+  "homepage": "https://github.com/yvsssantosh/arango-with-node#readme",
   "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "jsonwebtoken": "^5.7.0",
     "arangojs": "^5.4.2",
-    "body-parser": "~1.15.2",
-    "cookie-parser": "~1.4.3",
-    "debug": "~2.2.0",
-    "ejs": "~2.5.2",
-    "express": "~4.14.0",
     "ignitor.js": "0.0.7",
-    "morgan": "~1.7.0",
-    "serve-favicon": "~2.3.0"
+    "morgan": "^1.7.0"
   }
 }
