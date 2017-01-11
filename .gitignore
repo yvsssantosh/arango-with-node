@@ -1,17 +1,9 @@
-lib-cov
-*.seed
-*.log
-*.csv
-*.dat
-*.out
-*.pid
-*.gz
-*.iml
-
-pids
+# Logs
 logs
-results
+*.log
 
-node_modules/
-npm-debug.log
-.idea/
+# Runtime data
+
+
+# Users Environment Variables
+.lock-wscript
